@@ -20,6 +20,10 @@
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src",
+    "src/index.tsx"
+  ],
+  "files": [
+    "./src/styles/styled.d.ts"
   ]
 }
