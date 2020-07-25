@@ -16,6 +16,7 @@ export const ThemeSwitcher = styled(MdBrightnessMedium)`
     cursor: pointer;
     color: ${props => props.theme.title === 'light' ?
         shade(0.6, props.theme.colors.primary) : lighten(0.6, props.theme.colors.primary)};
+    transition: all 0.5s;
     &:hover {
         opacity: 0.7;
         transition: all 0.5s;
